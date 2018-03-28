@@ -41,7 +41,7 @@ class RootViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Manufactorers"
+        return "Manufacturers"
     }
     
     // MARK: - Navigation
