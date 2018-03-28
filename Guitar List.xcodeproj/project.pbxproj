@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4BB7C0F3206B3118008FF17B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C0F2206B3118008FF17B /* AppDelegate.swift */; };
-		4BB7C0F5206B3118008FF17B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C0F4206B3118008FF17B /* ViewController.swift */; };
 		4BB7C0F8206B3118008FF17B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB7C0F6206B3118008FF17B /* Main.storyboard */; };
 		4BB7C0FA206B3118008FF17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB7C0F9206B3118008FF17B /* Assets.xcassets */; };
 		4BB7C0FD206B3118008FF17B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB7C0FB206B3118008FF17B /* LaunchScreen.storyboard */; };
+		4BB7C105206B3F24008FF17B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C104206B3F24008FF17B /* RootViewController.swift */; };
+		4BB7C107206B4A38008FF17B /* GuitarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C106206B4A38008FF17B /* GuitarListViewController.swift */; };
+		4BB7C12B206C2964008FF17B /* GuitarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C12A206C2964008FF17B /* GuitarInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BB7C0EF206B3118008FF17B /* Guitar List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB7C0F2206B3118008FF17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BB7C0F4206B3118008FF17B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BB7C0F7206B3118008FF17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BB7C0F9206B3118008FF17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BB7C0FC206B3118008FF17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BB7C0FE206B3118008FF17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB7C104206B3F24008FF17B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4BB7C106206B4A38008FF17B /* GuitarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarListViewController.swift; sourceTree = "<group>"; };
+		4BB7C12A206C2964008FF17B /* GuitarInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				4BB7C0F2206B3118008FF17B /* AppDelegate.swift */,
-				4BB7C0F4206B3118008FF17B /* ViewController.swift */,
 				4BB7C0F6206B3118008FF17B /* Main.storyboard */,
 				4BB7C0F9206B3118008FF17B /* Assets.xcassets */,
 				4BB7C0FB206B3118008FF17B /* LaunchScreen.storyboard */,
 				4BB7C0FE206B3118008FF17B /* Info.plist */,
+				4BB7C104206B3F24008FF17B /* RootViewController.swift */,
+				4BB7C106206B4A38008FF17B /* GuitarListViewController.swift */,
+				4BB7C12A206C2964008FF17B /* GuitarInfoViewController.swift */,
 			);
 			path = "Guitar List";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB7C0F5206B3118008FF17B /* ViewController.swift in Sources */,
+				4BB7C12B206C2964008FF17B /* GuitarInfoViewController.swift in Sources */,
+				4BB7C107206B4A38008FF17B /* GuitarListViewController.swift in Sources */,
+				4BB7C105206B3F24008FF17B /* RootViewController.swift in Sources */,
 				4BB7C0F3206B3118008FF17B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
